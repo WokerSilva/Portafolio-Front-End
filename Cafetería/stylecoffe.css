@@ -1,11 +1,21 @@
-body{
-    color: red;
+/* Tamaño de letra de la barra de navegacion */
+.navbar-nav li.nav-item {
+    font-size: 23px; 
 }
-  
-  h1{
-    font-size: 181px; /* Ajusta el tamaño de letra según tu preferencia */
-  }
-  
-  navbar-nav li.nav-item {
-      font-size: 118px; /* Ajusta el tamaño de letra según tu preferencia */
-  }
+
+#botonNav{
+  font-family: monospace;
+  background-color: #00f2fe;
+  color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: .2s;
+}
+
+#botonNav:hover {
+  background-color: #3b82f6;
+  box-shadow: 5px 5px 5px 5px #000000;
+  color: #000000;
+}
