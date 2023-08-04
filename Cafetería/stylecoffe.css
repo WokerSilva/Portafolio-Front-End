@@ -1,0 +1,11 @@
+body{
+    color: red;
+}
+  
+  h1{
+    font-size: 181px; /* Ajusta el tamaño de letra según tu preferencia */
+  }
+  
+  navbar-nav li.nav-item {
+      font-size: 118px; /* Ajusta el tamaño de letra según tu preferencia */
+  }
