@@ -1,21 +1,63 @@
-/* Tamaño de letra de la barra de navegacion */
-.navbar-nav li.nav-item {
-    font-size: 23px; 
+body{
+  background-color: #FFF8E1;
+}
+.custom-navbar{
+  background-color: #3E2723; 
+  color: white;
 }
 
-#botonNav{
-  font-family: monospace;
-  background-color: #00f2fe;
-  color: #3b82f6;
+.navbar-toggler{
+  background-color: #fe6600;
+  color: #ffffff; 
+  border: #110701;    
+}
+/* Titulo del HOME */
+.navbar-brand{
+  color: #FFD700;
+  font-size: 25px;
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* Tamaño de letra de la barra de navegacion */
+.navbar-nav li.nav-item {
+    font-size: 60px; 
+}
+
+#botonNav{  
+  background-color: #fe6600;
+  color: #ffffff;
   border: none;
-  border-radius: 8px;
-  width: 100px;
+  border-radius: 15px;
+  width: 105px;
   height: 45px;
   transition: .2s;
+  font-family: 'Ysabeau SC', sans-serif;
+  margin-left: 10px;
 }
 
 #botonNav:hover {
-  background-color: #3b82f6;
+  background-color: #f63b73;
   box-shadow: 5px 5px 5px 5px #000000;
   color: #000000;
+}
+
+
+@media (max-width: 768px) { 
+
+  #botonNav{    
+    background-color: #fe6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: .2s;
+    margin-top: 10px; 
+  }
+
+  #botonNav:hover {
+    background-color: #f63b73;
+    box-shadow: 5px 5px 5px 5px #000000;
+    color: #000000;
+  }
 }
